@@ -1,0 +1,88 @@
+<app-header-tab></app-header-tab>
+<div class="row no-gutters">
+    <div class="col-md-12">
+        <div class="card-body">
+            <h3 class="card-title" style="text-decoration: underline;text-align: center;">
+                Software Skills
+            </h3>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="row no-gutters">
+        <div class="col-md-12">
+            <div class="card-body">
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action list-group-item-secondary summary-font">
+                        Ionic 1, 2, 3 Framework
+                    </a>
+                    <a class="list-group-item list-group-item-action list-group-item-success summary-font">
+                        Angular JS, Angular 2, 4, 5, 7, 11
+                    </a>
+                    <a class="list-group-item list-group-item-action list-group-item-danger summary-font">
+                        HTML, HTML5, CSS, CSS3, Bootstrap, JavaScript, ES6
+                    </a>
+                    <a class="list-group-item list-group-item-action list-group-item-warning summary-font">
+                        Brackets, Notepad++, Visual Studio Code, GIT, Jira, Bitbucket
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="card">
+    <div class="row no-gutters">
+        <div class="col-md-12">
+            <div class="card-body">
+                <div class="flex-container">
+                    <div>
+                        <img src="assets/img/html.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div>
+                        <img src="assets/img/css.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div>
+                        <img src="assets/img/js.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div>
+                        <img src="assets/img/es6.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div>
+                        <img src="assets/img/bootstrap.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div>
+                        <img src="assets/img/angularjs.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div>
+                        <img src="assets/img/angular.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div>
+                        <img src="assets/img/ionic.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div>
+                        <img src="assets/img/jira.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div>
+                        <img src="assets/img/vscode.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div>
+                        <img src="assets/img/git.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<p-carousel [value]="products" styleClass="custom-carousel" [numVisible]="8" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
+    <ng-template let-product pTemplate="item">
+        <div class="product-item">
+            <div class="product-item-content">
+                <div class="p-mb-3">
+                    <img src="{{product}}" class="product-image" />
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</p-carousel>

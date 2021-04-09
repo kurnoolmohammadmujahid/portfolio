@@ -1,0 +1,27 @@
+// add styles
+
+.summary-font{
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .col-md-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    element.style {
+        width: 250px;
+    }
+ }
+ @media only screen and (max-width: 360px) {
+
+    img {
+        width: 250px !important;
+    }
+ }

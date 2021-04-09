@@ -1,0 +1,137 @@
+<app-header-tab></app-header-tab>
+<div class="row no-gutters">
+    <div class="col-md-12">
+        <div class="card-body">
+            <h3 class="card-title" style="text-decoration: underline;text-align: center;">
+                Educational Qualification
+            </h3>
+        </div>
+    </div>
+</div>
+
+<div class="card card-layout">
+    <div class="card-body card-bg">
+        <div class="normal-screen">
+            <p-table [value]="products" dataKey="rollNumber">
+                <ng-template pTemplate="header">
+                    <tr>
+                        <th style="width: 3rem"></th>
+                        <th>Qualification
+                        </th>
+                        <th>Name & Address
+                        </th>
+                        <th>University
+                        </th>
+                        <th>Percentage
+                        </th>
+                    </tr>
+                </ng-template>
+                <ng-template pTemplate="body" let-product let-expanded="expanded">
+                    <tr>
+                        <td>
+                            <button type="button" pButton pRipple [pRowToggler]="product"
+                                class="p-button-text p-button-rounded p-button-plain"
+                                [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"></button>
+                        </td>
+                        <td>{{product.qualification}}</td>
+                        <td>{{product.name}}</td>
+                        <td>{{product.university}}</td>
+                        <td>{{product.percentage}}</td>
+                    </tr>
+                </ng-template>
+                <ng-template pTemplate="rowexpansion" let-product>
+                    <tr class="expand-font-size">
+                        <th style="width: 3rem"></th>
+                        <td>Qualification: </td>
+                        <td class="bold">{{product.qualification}}</td>
+                        <td>Name: </td>
+                        <td class="bold">{{product.name}}</td>
+                    </tr>
+                    <tr class="expand-font-size">
+                        <th style="width: 3rem"></th>
+                        <td>University: </td>
+                        <td class="bold">{{product.university}}</td>
+                        <td>Marks: </td>
+                        <td class="bold">{{product.marks}}</td>
+                    </tr>
+                    <tr class="expand-font-size">
+                        <th style="width: 3rem"></th>
+                        <td>Year of Enrolment:</td>
+                        <td class="bold">{{product.yearEnrol}}</td>
+                        <td>Year Passed:</td>
+                        <td class="bold">{{product.yearPass}}</td>
+                    </tr>
+                    <tr class="expand-font-size">
+                        <th style="width: 3rem"></th>
+                        <td>Roll Number:</td>
+                        <td class="bold">{{product.rollNumber}}</td>
+                        <td></td>
+                        <td class="bold"></td>
+                    </tr>
+                </ng-template>
+            </p-table>
+        </div>
+        <div class="small-screen">
+            <p-accordion>
+                <p-accordionTab header="{{product.qualification}}" *ngFor="let product of products">
+                    <div class="row expand-font-size-small">
+                        <div class="col-sm">
+                            Qualification:
+                        </div>
+                        <div class="col-sm bold">
+                            {{product.qualification}}
+                        </div>
+                    </div>
+                    <div class="row expand-font-size-small">
+                        <div class="col-sm">
+                            Name:
+                        </div>
+                        <div class="col-sm bold">
+                            {{product.name}}
+                        </div>
+                    </div>
+                    <div class="row expand-font-size-small">
+                        <div class="col-sm">
+                            University:
+                        </div>
+                        <div class="col-sm bold">
+                            {{product.university}}
+                        </div>
+                    </div>
+                    <div class="row expand-font-size-small">
+                        <div class="col-sm">
+                            Marks:
+                        </div>
+                        <div class="col-sm bold">
+                            {{product.marks}}
+                        </div>
+                    </div>
+                    <div class="row expand-font-size-small">
+                        <div class="col-sm">
+                            Year of Enrolment:
+                        </div>
+                        <div class="col-sm bold">
+                            {{product.yearEnrol}}
+                        </div>
+                    </div>
+                    <div class="row expand-font-size-small">
+                        <div class="col-sm">
+                            Year Passed:
+                        </div>
+                        <div class="col-sm bold">
+                            {{product.yearPass}}
+                        </div>
+                    </div>
+                    <div class="row expand-font-size-small">
+                        <div class="col-sm">
+                            Roll Number:
+                        </div>
+                        <div class="col-sm bold">
+                            {{product.rollNumber}}
+                        </div>
+                    </div>
+                </p-accordionTab>
+            </p-accordion>
+        </div>
+    </div>
+</div>

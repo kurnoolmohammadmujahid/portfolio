@@ -1,0 +1,75 @@
+<app-header-tab></app-header-tab>
+<div class="row no-gutters">
+    <div class="col-md-12">
+        <div class="card-body">
+            <h3 class="card-title" style="text-decoration: underline;text-align: center;">
+                Projects Outline
+            </h3>
+        </div>
+    </div>
+</div>
+
+<p-accordion>
+    <p-accordionTab header="{{project.name}}" *ngFor="let project of projects">
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <div class="card-body">
+                    <h6 class="card-title" style="text-decoration: underline;">Client:</h6>
+                    <div class="list-group">
+                        <a class="list-group-item list-group-item-action list-group-item-primary summary-font">
+                            {{project.client}}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <div class="card-body">
+                    <h6 class="card-title" style="text-decoration: underline;">Organization:</h6>
+                    <div class="list-group">
+                        <a class="list-group-item list-group-item-action list-group-item-secondary summary-font">
+                            {{project.organization}}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <div class="card-body">
+                    <h6 class="card-title" style="text-decoration: underline;">Description:</h6>
+                    <div class="list-group">
+                        <a class="list-group-item list-group-item-action list-group-item-success summary-font">
+                            {{project.description}}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <div class="card-body">
+                    <h6 class="card-title" style="text-decoration: underline;">Roles & Responsibilities:</h6>
+                    <div class="list-group">
+                        <a class="list-group-item list-group-item-action list-group-item-danger summary-font">
+                            {{project.rolesnresponse}}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-12">
+                <div class="card-body">
+                    <h6 class="card-title" style="text-decoration: underline;">Technology:</h6>
+                    <div class="list-group">
+                        <a class="list-group-item list-group-item-action list-group-item-warning summary-font">
+                            {{project.technology}}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </p-accordionTab>
+</p-accordion>
