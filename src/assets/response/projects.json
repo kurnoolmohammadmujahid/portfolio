@@ -1,0 +1,100 @@
+{
+    "res": [
+        {
+            "name": "Project Title : OLBB – Interac 3.5",
+            "client": "Bank of Montreal",
+            "organization": "HCL Technologies Ltd, Chennai.",
+            "description": "Online Banking for Business (OLBB) is developed for customers and bank users to manage transactions/recipients/auto deposits for various modes of payments like Interac, Zelle and Wire. Worked on Interac Payments which allows customers to send money to anyone having an email address and a Canadian/US Bank account. Following are the features in Interac 3.5 Send Money, Receive Money Request, Fulfill Money Request, Manage Interac Payments, Create Templates, Send Money via templates, Manage Interac templates, Interac Settings (Manage recipients/auto deposits).",
+            "rolesnresponse": "Design, Development and Testing of Application with the team for change in specification and posting queries related to the client requirement. Issue Fixing, Unit Testing and Client Change Request.",
+            "technology": "Angular 7 (Typescript)."
+        },
+        {
+            "name": "Project Title : EDWARDS – CONNECTIVITY GEN 1",
+            "client": "ELS – Edwards Life Science",
+            "organization": "HCL Technologies Ltd, Chennai.",
+            "description": "Gateway Register and Gateway Management, Gateway is a Software application that functions to provide between hemodynamic monitors and EMR. Gateway software have web application that allows login using default admin account. The admin can able to view and Manage Network settings and Hemosphere status in gateway application.",
+            "rolesnresponse": "Design, Development and Testing of Application with the team for change in specification and posting queries related to the client requirement.",
+            "technology": "Angular 7 (Typescript)."
+        },
+        {
+            "name": "Project Title : AZL-PHL-S01-PNB SALES DIGITALIZATION",
+            "client": "Allianz PNB Life Insurance",
+            "organization": "HCL Technologies Ltd, Chennai.",
+            "description": "Digitalization of AllianzPNBLifeInsurance is hybrid application for android developed using the Ionic 3 and Angular 5. Application is used to perform the following operations. Create an Appointment. Assign a lead for the user, Collect the Need Analysis, Information to share regarding the Risk on investment (Investment Risk Profile), Illustrating the sales, Creating the application, Proof evaluation of details with Applicant Owner and Financial advisor by submitting the signed application. Policy number Generation for the reference to client",
+            "rolesnresponse": "Design, Development and Testing of Application with the team for change in specification and posting queries related to the client requirement. Production Support and Enhancements. Provided extensive support for Production Process. Issue Fixing and Client Change Request.",
+            "technology": "Ionic 3 and Angular 5 (Typescript)."
+        },
+        {
+            "name": "Project Title : Oriental Bank of Commerce Branch Mobile App",
+            "client": "Oriental Bank of Commerce.",
+            "organization": "Financial Software & Systems (P) Ltd, Chennai.",
+            "description": "Oriental Bank of Commerce Mobile Branch App is hybrid application for android developed using the Ionic 3 and Angular 4. This is a Branch App which is used to perform the customer KYC full/partial authentication who will create a new account creation via mobile banking app.",
+            "rolesnresponse": "Design, Development and Testing of Application with the team for change in specification and posting queries related to the client requirement. Production Support and Involved in Trouble shooting. Provided extensive support for Production Process. Issue Fixing and Client Change Request.",
+            "technology": "Ionic 3 and Angular 4 (Typescript)."
+        },
+        {
+            "name": "Project Title : UNBI Mobile Banking App",
+            "client": "United Bank of India",
+            "organization": "Financial Software & Systems (P) Ltd, Chennai.",
+            "description": "United Bank of India Mobile Banking App is hybrid application for android, IOS developed using the Ionic 2 and Angular 2. This application features the following: User friendly interface with touch screen UI support, Balance Inquiry (With combined Available Balance), Mini Statement (Last 7 transactions with available balance), Intrabank Funds Transfer (Mobile to Mobile, Mobile to Account), NEFT, Interbank Mobile Payment Service (IMPS), Offline Service Requests, Bill Payment, Recharge, Bharat QR, etc.,",
+            "rolesnresponse": "Design, Development and Testing of Application with the team for change in specification and posting queries related to the client requirement. Production Support and Involved in Trouble shooting. Provided extensive support for Production Process. Issue Fixing and Client Change Request.",
+            "technology": "Ionic 2 and Angular 2 (Typescript)."
+        },
+        {
+            "name": "Product Title : Seamless Demo App",
+            "client": "Financial Software & Systems (P) Ltd, Chennai.",
+            "organization": "Financial Software & Systems (P) Ltd, Chennai.",
+            "description": "FSS Mobile Pay is the FSS 6.3 product for mobile banking. This is a hybrid application which supports in three platforms Android, Windows & IOS. Following are features to be targeted in demo. Facial Recognition, QR Pay, Tap & Pay, Photo Pay, ChatBot SDK integration, Speech, IBeacon, Tone Pay",
+            "rolesnresponse": "Design, Development and Testing of Application with the team for change in specification and posting queries related to the requirement. Product Support and Involved in RnD items. Provided extensive support for Product delivery on time. Issue Fixing.",
+            "technology": "Ionic 2 and Angular 2 (Typescript)"
+        },
+        {
+            "name": "Project Title : Bank of India Mobile Banking.",
+            "client": "Bank of India.",
+            "organization": "Financial Software & Systems (P) Ltd, Chennai.",
+            "description": "Bank of India Mobile banking is hybrid application for android and IOS developed using the Ionic 2 and Angular 2. This is a banking application which is used to perform the financial and non-financial transactions (Transfer funds, service requests, etc.,)",
+            "rolesnresponse": "Design, Development and Testing of Application with the team for change in specification and posting queries related to the client requirement. Production Support and Involved in Trouble shooting. Provided extensive support for Production Process Issue Fixing and Client Change Request.",
+            "technology": "Ionic 2 and Angular 2 (Typescript)"
+        },
+        {
+            "name": "Project Title : OBC Mobile Banking App",
+            "client": "Oriental Bank of Commerce",
+            "organization": "Financial Software & Systems (P) Ltd, Chennai.",
+            "description": "OBCmPAY is hybrid application for android, windows and IOS developed using the Ionic 1, Angular JS and later upgraded to Ionic 2, Angular 2. Customer shall be able to view Accounts, Fund Transfers, Service request, Bill payments, Recharge, Ticket Booking, etc.,",
+            "rolesnresponse": "Design, Development and Testing of Application with the team for change in specification and posting queries related to the requirement. Production Support and Involved in Trouble shooting. Provided extensive support for Production Process. Audit reviews evaluations and instant fixings. Issue Fixing and Client Change Request.",
+            "technology": "Ionic 2 and Angular 2 (Typescript). Ionic 1 and Angular 1 (Javascript)."
+        },
+        {
+            "name": "Product Title : JARVIS - A Financial Chabot",
+            "client": "Financial Software & Systems (P) Ltd, Chennai.",
+            "organization": "Financial Software & Systems (P) Ltd, Chennai.",
+            "description": "Jarvis is hybrid application for android platform developed using the Ionic 2, Angular 2. Jarvis is a financial Chabot aims to create highly intelligent systems in order to improve the interactivity between customer and application by making use of NLP, ML and AI. It accepts text, speech input and provides rich text response for better interaction",
+            "rolesnresponse": "Design, Development and Testing of Application. Demonstration Support and Involved in Trouble shooting. Presented idea in FSS Payment Productathon.",
+            "technology": "Ionic 2 and Angular 2 (Typescript)."
+        },
+        {
+            "name": "Project Title : OBC Customer WAP.",
+            "client": "Oriental Bank of Commerce.",
+            "organization": "Financial Software & Systems (P) Ltd, Chennai.",
+            "description": "OBC Customer WAP is a web application developed using Angular 2, Bootstrap. Customer shall be able to view Accounts, Fund Transfers, Service request, Bill payments, Recharge, Ticket Booking, etc., via web.",
+            "rolesnresponse": "Design, Development and Testing of Application with the team for change in specification and posting queries related to the requirement. Production Support and Involved in Trouble shooting. Provided extensive support for Production Process. Issue Fixing and Client Change Request.",
+            "technology": "Bootstrap and Angular 2 (Typescript)."
+        },
+        {
+            "name": "Project Title : OBC Branch WAP.",
+            "client": "Oriental Bank of Commerce.",
+            "organization": "Financial Software & Systems (P) Ltd, Chennai.",
+            "description": "OBC Branch WAP is a web application developed using Angular 2, Bootstrap. Customer will visit to branch and branch person will be doing the fund transfer via web.",
+            "rolesnresponse": "Design, Development and Testing of Application with the team for change in specification and posting queries related to the requirement. Production Support and Involved in Trouble shooting. Provided extensive support for Production Process. Issue Fixing and Client Change Request.",
+            "technology": "Bootstrap and Angular 2 (Typescript)."
+        },
+        {
+            "name": "Product Title : FSS Mobile Pay",
+            "client": "Financial Software & Systems (P) Ltd, Chennai.",
+            "organization": "Financial Software & Systems (P) Ltd, Chennai.",
+            "description": "FSS Mobile Pay is the FSS 6.0 product for mobile banking. This is a hybrid application which supports in three platforms Android, Windows & IOS.",
+            "rolesnresponse": "Design, Development and Testing of Application with the team for change in specification and posting queries related to the requirement. Product Support and Involved in multiple RnD items. Provided extensive support for Product delivery on time. Issue Fixing.",
+            "technology": "Ionic 2 and Angular 2 (Typescript)"
+        }
+    ]
+}

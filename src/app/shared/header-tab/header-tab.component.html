@@ -1,0 +1,93 @@
+<div class="d-flex bd-highlight main-header">
+    <div class="p-2 bd-highlight">
+        <button pButton type="button" icon="pi pi-align-justify" (click)="visibleSidebar1=true" iconPos="left"></button>
+    </div>
+    <div class="p-2 w-100 bd-highlight">
+        PORTFOLIO
+    </div>
+</div>
+<p-tabMenu [model]="items" [activeItem]="activeItem"></p-tabMenu>
+
+<p-sidebar [(visible)]="visibleSidebar1" [baseZIndex]="10000">
+    <h1 style="font-weight:normal">PORTFOLIO</h1>
+    <div style="text-align: center;">
+        <img style=" border: 2px solid;width: 110px;" src="assets/img/pictures/Profile.jpg" alt="...">
+    </div>
+    <div class="row" style="padding: 6px;" [routerLink]="['/profile']" routerLinkActive="router-link-active">
+        <div class="col-2">
+            <button pButton pRipple type="button" icon="pi pi-fw pi-user"
+                class="p-button-rounded p-button-text"></button>
+        </div>
+        <div class="col-8" style="margin-top: 5px;">
+            Profile
+        </div>
+    </div>
+    <div class="row" style="padding: 6px;" [routerLink]="['/experience']" routerLinkActive="router-link-active">
+        <div class="col-2">
+            <button pButton pRipple type="button" icon="pi pi-fw pi-calendar"
+                class="p-button-rounded p-button-text"></button>
+        </div>
+        <div class="col-8" style="margin-top: 5px;">
+            Experience
+        </div>
+    </div>
+    <div class="row" style="padding: 6px;" [routerLink]="['/skills']" routerLinkActive="router-link-active">
+        <div class="col-2">
+            <button pButton pRipple type="button" icon="pi pi-fw pi-book"
+                class="p-button-rounded p-button-text"></button>
+        </div>
+        <div class="col-8" style="margin-top: 5px;">
+            Skills
+        </div>
+    </div>
+    <div class="row" style="padding: 6px;" [routerLink]="['/education']" routerLinkActive="router-link-active">
+        <div class="col-2">
+            <button pButton pRipple type="button" icon="pi pi-fw pi-bookmark"
+                class="p-button-rounded p-button-text"></button>
+        </div>
+        <div class="col-8" style="margin-top: 5px;">
+            Education
+        </div>
+    </div>
+    <div class="row" style="padding: 6px;" [routerLink]="['/projects']" routerLinkActive="router-link-active">
+        <div class="col-2">
+            <button pButton pRipple type="button" icon="pi pi-fw pi-check-square"
+                class="p-button-rounded p-button-text"></button>
+        </div>
+        <div class="col-8" style="margin-top: 5px;">
+            Projects
+        </div>
+    </div>
+    <div class="row" style="padding: 6px;" [routerLink]="['/achievements']" routerLinkActive="router-link-active">
+        <div class="col-2">
+            <button pButton pRipple type="button" icon="pi pi-fw pi-briefcase"
+                class="p-button-rounded p-button-text"></button>
+        </div>
+        <div class="col-8" style="margin-top: 5px;">
+            Achievements
+        </div>
+    </div>
+    <div class="row" style="padding: 6px;" [routerLink]="['/personal-details']" routerLinkActive="router-link-active">
+        <div class="col-2">
+            <button pButton pRipple type="button" icon="pi pi-fw pi-id-card"
+                class="p-button-rounded p-button-text"></button>
+        </div>
+        <div class="col-8" style="margin-top: 5px;">
+            Details
+        </div>
+    </div>
+    <div class="row" style="padding: 6px;" [routerLink]="['/happy-clients']" routerLinkActive="router-link-active">
+        <div class="col-2">
+            <button pButton pRipple type="button" icon="pi pi-fw pi-chart-line"
+                class="p-button-rounded p-button-text"></button>
+        </div>
+        <div class="col-8" style="margin-top: 5px;">
+            Clients
+        </div>
+    </div>
+    <div class="row main-header" style="padding: 6px;" (click)="resume()">
+        <div class="col-12 bd-highlight">
+            RESUME
+        </div>
+    </div>
+</p-sidebar>

@@ -1,0 +1,34 @@
+{
+    "res": [
+        {
+            "qualification": "B.TECH, Computer Science",
+            "name": "G. Pullaiah College of Engineering and Technology",
+            "university": "JNTU Anantapuramu",
+            "percentage": "70%",
+            "marks": "First Class",
+            "yearEnrol": "08/2011",
+            "yearPass": "04/2015",
+            "rollNumber": "11AT1A0522"
+        },
+        {
+            "qualification": "Senior Secondary",
+            "name": "Narayana Junior College",
+            "university": "Board of Intremediate Andhra Pradesh",
+            "percentage": "90%",
+            "marks": "A Grade",
+            "yearEnrol": "06/2009",
+            "yearPass": "04/2011",
+            "rollNumber": "1110212162"
+        },
+        {
+            "qualification": "Secondary",
+            "name": "Keshava Reddy Concept School",
+            "university": "Board of Secondary Education Andhra Pradesh",
+            "percentage": "82.5%",
+            "marks": "First Class",
+            "yearEnrol": "06/1999",
+            "yearPass": "04/2009",
+            "rollNumber": "0920108853"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+<app-header-tab></app-header-tab>
+
+<div class="row no-gutters">
+    <div class="col-md-12">
+        <div class="card-body">
+            <h3 class="card-title" style="text-decoration: underline;text-align: center;">
+                Achievements & Awards
+            </h3>
+        </div>
+    </div>
+</div>
+
+<div class="row no-gutters">
+    <div class="col-md-12">
+        <div class="card-body">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-action list-group-item-success summary-font">
+                    Awarded for extraordinary performance in pandemic situation, has made it to the league of the
+                    extraordinary, The Achievers’ League.
+                </li>
+                <li class="list-group-item list-group-item-action list-group-item-success summary-font">
+                    Awarded as appreciation of excellent performance in Allianz PNB Agila Project.
+                </li>
+                <li class="list-group-item list-group-item-action list-group-item-success summary-font">
+                    Awarded as Spot Idea Award for emergency solving the issue in time without any loss to client and
+                    business.
+                </li>
+                <li class="list-group-item list-group-item-action list-group-item-success summary-font">
+                    Awarded as Special recognition award in FSS Payment Productathon.
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<p-carousel [value]="products" styleClass="custom-carousel" [numVisible]="1" [numScroll]="1" [circular]="true"
+    [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
+    <ng-template let-product pTemplate="item">
+        <div class="product-item">
+            <div class="product-item-content">
+                <div class="p-mb-3">
+                    <img src="{{product}}" class="product-image" />
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</p-carousel>
